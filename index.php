@@ -7,17 +7,25 @@
 	</title>
 </head>
 <body>
-	<h2>
+	
 		
 	<?php 
-	$nome = "Valeria";
+	$nome = "Valeria ";
+	$nascimento = "18/09/1989 ";
+	$sobre_nome = "Andrade do Nascimento";
 
 
 
-	echo $nome;
+	/*echo $nome;
+	echo $sobre_nome;
+	echo $nascimento;*/
+
 
 	 ?>
-	</h2>
+	<p><?php echo $nome;  ?></p>
+	<p><?php echo $nascimento; ?></p>
+	<p><?php echo $sobre_nome; ?></p>
+
 
 </body>
 </html>
