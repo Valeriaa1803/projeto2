@@ -35,7 +35,7 @@
 				<th>Categoria</th>
 				<th>Ações</th>
 			</tr>
-			<?php while($produto = $produtos->fetch_array(MYSQLI_ASSOC)) { //aqui eu starto o loop dos dados da consulta ?>
+			 <?php while($produto = $produtos->fetch_array(MYSQLI_ASSOC)) { //aqui eu starto o loop dos dados da consulta ?>
 				<tr>
 					<td><?php echo $produto['id']; ?></td>
 					<td><?php echo $produto['nome']; ?></td>
