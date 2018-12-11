@@ -1,26 +1,19 @@
-<?php  
-
-$cor = 'Branco';
+<?php
+$cor = 'Vermelho';
 
 switch ($cor) {
 	case 'Amarelo':
-		echo 'É amarelo igual ao sol';
+		echo 'É Amarelo igual ao sol';
 		break;
 	case 'Branco':
-		echo 'Poxa é Branco';
+		echo 'Poxa é branco';
 		break;
-	case 'Azul':
-		echo 'Sim, é Azul';
-	
+	case 'vermelho':
+		echo 'Ha ha, igual a sangue';
 		break;
-
-
-		
 	default:
-			echo 'Cor não encontrada';
+		echo 'Cor não encontrada';
 		break;
-	}
 }
-
 
 ?>

@@ -1,11 +1,9 @@
 <?php
-$num = 2
-;
+$num = 2;
 
-while ($num <= 12) {
+while($num <= 12){
+	echo $num.'<br>';
+	$num++;
+}
 
-  	echo $num.'<br>';
-  	$num++;
-  }  
-
-  ?>
+?>

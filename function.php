@@ -1,12 +1,12 @@
 <?php 
-$b = 99;
-$c = 151;
-
-function somaNaum ($num1, $num2) {
+function somaNum($num1, $num2) {
 	$a = $num1 + $num2;
 	return $a;
 }
-$z = somaNaum ($b, $c); 
 
-exit;
- ?>
+$b = 99;
+$c = 151;
+
+echo somaNum($b, $c);
+
+?>
